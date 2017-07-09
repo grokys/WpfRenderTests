@@ -335,7 +335,7 @@ namespace WpfTilingTests
                     {
                         Stretch = Stretch.None,
                         TileMode = TileMode.FlipXY,
-                        Viewport = new Rect(0.5, 0.5, 0.5, 0.5),
+                        Viewport = new Rect(0, 0, 0.5, 0.5),
                         ViewportUnits = BrushMappingMode.RelativeToBoundingBox,
                         ImageSource = LoadBitmap(BitmapPath),
                     }
