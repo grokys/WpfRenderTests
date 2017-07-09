@@ -181,8 +181,8 @@ namespace WpfTilingTests
                     {
                         Stretch = Stretch.None,
                         TileMode = TileMode.None,
-                        Viewport = new Rect(250, 250, 250, 250),
-                        ViewportUnits = BrushMappingMode.Absolute,
+                        Viewbox = new Rect(250, 250, 250, 250),
+                        ViewboxUnits = BrushMappingMode.Absolute,
                         ImageSource = LoadBitmap(BitmapPath),
                     }
                 }
