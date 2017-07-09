@@ -206,8 +206,8 @@ namespace WpfTilingTests
                     {
                         Stretch = Stretch.None,
                         TileMode = TileMode.None,
-                        Viewbox = new Rect(92, 92, 92, 92),
-                        ViewboxUnits = BrushMappingMode.Absolute,
+                        Viewport = new Rect(92, 92, 92, 92),
+                        ViewportUnits = BrushMappingMode.Absolute,
                         ImageSource = LoadBitmap(BitmapPath),
                     }
                 }
@@ -310,7 +310,7 @@ namespace WpfTilingTests
                     {
                         Stretch = Stretch.None,
                         TileMode = TileMode.FlipY,
-                        Viewport = new Rect(0.5, 0.5, 0.5, 0.5),
+                        Viewport = new Rect(0, 0, 0.5, 0.5),
                         ViewportUnits = BrushMappingMode.RelativeToBoundingBox,
                         ImageSource = LoadBitmap(BitmapPath),
                     }

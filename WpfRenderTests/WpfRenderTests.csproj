@@ -81,9 +81,7 @@
     <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_FlipX_TopLeftDest.expected.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_FlipY_TopLeftDest.expected.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_FlipY_TopLeftDest.expected.png" />
     <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_NoTile_Alignment_BottomRight.expected.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -93,9 +91,7 @@
     <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_NoTile_Alignment_TopLeft.expected.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_NoTile_BottomRightQuarterDest.expected.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_NoTile_BottomRightQuarterDest.expected.png" />
     <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_NoTile_BottomRightQuarterSource.expected.png" />
     <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_NoTile_BottomRightQuarterSource_BottomRightQuarterDest.expected.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
