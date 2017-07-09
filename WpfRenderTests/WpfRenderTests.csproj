@@ -99,6 +99,8 @@
     <Content Include="TestFiles\Media\ImageBrush\ImageBrush_NoStretch_Tile_BottomRightQuarterSource_CenterQuarterDest.expected.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="TestFiles\Media\ImageBrush\ImageBrush_Tile_Fill.expected.png" />
+    <Content Include="TestFiles\Media\ImageBrush\ImageBrush_Tile_UniformToFill.expected.png" />
     <Content Include="TestFiles\Media\ImageBrush\ImageBrush_UniformToFill_NoTile.expected.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

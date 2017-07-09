@@ -24,6 +24,56 @@ namespace WpfTilingTests
         }
 
         [WpfFact]
+        public void ImageBrush_Tile_Fill()
+        {
+            Decorator target = new Decorator
+            {
+                Width = 200,
+                Height = 200,
+                Child = new Rectangle
+                {
+                    Margin = new Thickness(8),
+                    Fill = new ImageBrush
+                    {
+                        Stretch = Stretch.Fill,
+                        TileMode = TileMode.Tile,
+                        Viewport = new Rect(0, 0, 25, 30),
+                        ViewportUnits = BrushMappingMode.Absolute,
+                        ImageSource = LoadBitmap(BitmapPath),
+                    }
+                }
+            };
+
+            RenderToFile(target);
+            CompareImages();
+        }
+
+        [WpfFact]
+        public void ImageBrush_Tile_UniformToFill()
+        {
+            Decorator target = new Decorator
+            {
+                Width = 200,
+                Height = 200,
+                Child = new Rectangle
+                {
+                    Margin = new Thickness(8),
+                    Fill = new ImageBrush
+                    {
+                        Stretch = Stretch.Uniform,
+                        TileMode = TileMode.Tile,
+                        Viewport = new Rect(0, 0, 25, 30),
+                        ViewportUnits = BrushMappingMode.Absolute,
+                        ImageSource = LoadBitmap(BitmapPath),
+                    }
+                }
+            };
+
+            RenderToFile(target);
+            CompareImages();
+        }
+
+        [WpfFact]
         public void ImageBrush_NoStretch_NoTile_Alignment_TopLeft()
         {
             Decorator target = new Decorator
